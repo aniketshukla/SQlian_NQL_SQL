@@ -1,0 +1,88 @@
+<html>
+<head>
+    <style>
+            body{height:100%;
+   width:100%;
+   background-image:url(nebula.jpg);  
+   background-repeat:no-repeat;  
+   background-size:cover;          
+   opacity:0.9;
+   filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.image.jpg',sizingMethod='scale');
+   -ms-filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(src='image.jpg',sizingMethod='scale')";
+}
+    </style>
+		<meta charset="utf-8">
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!--webfonts-->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text.css'/>
+		<!--//webfonts-->
+    <script src="js/jquery.js" type="application/javascript" ></script>
+    <script>
+    $(document).ready(function(){
+        $(".signup").hide();})
+    
+    </script>
+</head>
+ 
+<body>
+	<div class="main login">
+		<form>
+    		<h1> <lable> Login </lable> </h1>
+  			<div class="inset">
+	  			<p>
+	    		 <label for="email">Enter Email</label>
+   	 			<input type="text" placeholder="Enter registered email address" pattern="^[^@]+@[^@]+.[a-zA-Z]{2,6}$" required/>
+				</p>
+  				<p>
+				    <label for="password">Password</label>
+				    <input type="password" placeholder="Password" required/>
+  				</p>
+				  
+ 			 </div>
+ 	 
+			  <p class="p-container">
+			    
+			    <input type="submit" value="Login">
+			  </p>
+		</form>
+        <button class="woops">Not Registered Yet</button>
+	</div>  
+    <div class="main signup">
+		<form>
+    		<h1> <lable> Sign Up </lable> </h1>
+  			<div class="inset">
+                <p>
+	    		 <label for="username">Enter Username</label>
+   	 			<input type="text" placeholder="Your first name would do" required/>
+				</p>
+	  			<p>
+	    		 <label for="email">Enter Email</label>
+   	 			<input type="text" placeholder="Enter registered email address" pattern="^[^@]+@[^@]+.[a-zA-Z]{2,6}$" required/>
+				</p>
+  				<p>
+				    <label for="password">Password</label>
+				    <input type="password" placeholder="Password" required/>
+  				</p>
+				  
+ 			 </div>
+ 	 
+			  <p class="p-container">
+			    
+			    <input type="submit" value="Sign up">
+			  </p>
+		</form>
+        <button class="woops2">Already registered?</button>
+	</div>  
+<script>
+$(document).ready(function(){
+    $(".woops").click(function(){$(".login").hide();
+    $(".signup").show();                            })});
+$(document).ready(function(){
+    $(".woops2").click(function(){$(".signup").hide();
+    $(".login").show();                            })});        
+
+    </script>			
+</body>
+</html>

@@ -1,0 +1,66 @@
+Query: create table x
+SQLized: CREATE table x
+
+Query: find pq fow which iq is greater than 3
+SQLized: SELECT pq fow iq greater 3
+
+Query: find pq fow which iq is greater than 3
+SQLized: SELECT pq fow iq greater 3
+
+Query: find pq fow which iq is greater than 3
+SQLized: SELECT pq fow iq greater 3
+
+Query: find pq fow which iq is greater than 3
+SQLized: SELECT pq fow iq greater 3
+
+Query: find pq fow which iq is greater than 3
+SQLized: SELECT pq fow iq greater 3
+
+Query: create table x
+SQLized: CREATE table x
+
+Query: create table x
+SQLized: CREATE table x
+
+Query: create table x
+SQLized: CREATE table x
+
+Query: create table x
+SQLized: CREATE table x
+
+Query: find pq iq for which iq is greater than 3 , pq is less than 3,iq is less than 7
+SQLized: SELECT pq iq iq greater 3 , pq less 3,iq less 7
+
+Query: find pq iq for which iq is greater than 3 , pq is less than 3,iq is less than 7
+SQLized: SELECT pq iq iq greater 3 , pq less 3,iq less 7
+
+Query: find pq iq for which iq is greater than 3 , pq is less than 3,iq is less than 7
+SQLized: SELECT pq iq iq greater 3 , pq less 3,iq less 7
+
+Query: find pq iq for which iq is greater than 3 , pq is less than 3,iq is less than 7
+SQLized: SELECT pq iq iq greater 3 , pq less 3,iq less 7
+
+Query: find pq iq for which iq is greater than 3 , pq is less than 3,iq is less than 7
+SQLized: SELECT pq iq iq greater 3 , pq less 3,iq less 7
+
+Query: find pq iq for which iq is greater than 3 , pq is less than 3 , iq is less than 7
+SQLized: SELECT pq iq iq greater 3 , pq less 3 , iq less 7
+
+Query: find pq iq for which iq is greater than 3 , pq is less than 3 , iq is less than 7
+SQLized: SELECT pq iq iq greater 3 , pq less 3 , iq less 7
+
+Query: find pq iq for which iq is greater than 3 , pq is less than 3 , iq is less than 7
+SQLized: SELECT pq iq iq greater 3 , pq less 3 , iq less 7
+
+Query: find pq iq for which iq is greater than 3
+SQLized: SELECT pq iq iq greater 3
+
+Query: find pq iq for which iq is greater than 3
+SQLized: SELECT pq iq iq greater 3
+
+Query: find pq iq for which iq is greater than 3
+SQLized: SELECT pq iq iq greater 3
+
+Query: find pq fow which iq is greater than 3
+SQLized: SELECT pq fow iq greater 3
+

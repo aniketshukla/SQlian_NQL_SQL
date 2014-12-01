@@ -1,0 +1,105 @@
+<html>
+<head>
+<link href="jquery-ui-1.11.2.custom/jquery-ui.css" rel="stylesheet">
+<link href="css/bootstrap.css" rel="stylesheet">
+<script src="js/jquery-1.11.1.js" type="application/javascript"></script>
+<script src="jquery-ui-1.11.2.custom/jquery-ui.js"></script>
+<script src="js/bootstrap.js" type="application/javascript"></script>
+
+<style>
+    .toggle{
+    display: none;
+        
+        }
+    .alttoggle{position: absolute;
+        display:none;
+    top:20px;}
+    
+    
+    
+    </style>    
+    </head>
+
+
+<body>
+    <div class="container">
+    <div class="row">
+    <div class="col-lg-6" class="col-md-6">
+<form class="form-horizontal" role="form">
+    <fieldset>
+    <div class="alttoggle">
+    <legend>Sign in</legend>
+    <div class="form-group">
+    <input type="email" class="form-control" id="temp"  placeholder="enter email" style="width:400px">    </div>
+    <div class="form-group">
+    <input type="password" class="form-control" id="temp1" placeholder="enter password" style="width:400px"</div>
+        
+        
+        </div>
+    
+    
+    
+    </fieldset>
+        
+        </form>
+        
+        
+        </div>
+    <div class="col-lg-6 beep col-md-6">
+        <form class="form-horizontal" role="form">
+        <fieldset>
+        <button class="btn btn-primary" id="dropsignin">Already have an account</button> <button class="btn btn-success" id="dropmenu">Sign up</button>
+        <script>
+        $("#dropsignin").click(function(e){e.preventDefault();
+                                         $(".alttoggle").slideToggle();});
+        </script>
+        <div class="toggle">
+        <legend>Sign up</legend>
+        <div class="form-group" >
+        <input type="text" class="form-control " id="a1" placeholder="enter name" style="width:400px">    
+            </div>
+        <div class="form-group">
+            <input type="text" class="form-control " id="a3" placeholder="enter date" style="width:400px"></div>
+            <script>
+            $("#a3").datepicker();
+            </script>
+            
+        <div class="form-group">
+            <input type="email" class="form-control " id="inputemail" placeholder="enter email" style="width:400px">
+            </div>
+        <div class="form-group">
+            <input type="password" class="form-control" id="inputpassword" placeholder="enter 8 digit password" style="width:400px"></div>
+            
+        
+        </div>
+    
+        </fieldset>
+        
+        </form>
+        
+              
+        </div>
+    
+    
+    
+    </div>
+    
+    
+      <script>
+          
+                  
+    $(document).ready(function(){$("#dropmenu").click(function(e){e.preventDefault();
+        $(".toggle").slideToggle("fast");})});
+            </script>
+        
+    
+    </body>
+
+
+
+
+
+
+
+
+</html>
